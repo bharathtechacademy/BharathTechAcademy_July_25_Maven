@@ -1,11 +1,6 @@
-package scripts;
+package assignments;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import utilities.PdfUtil;
-
-public class PDFTest {
+public class Assignment20_ReadPdf {
 
 	public static void main(String[] args) {
 		String page2Text = PdfUtil.getText("Transactions.pdf", 1, 1);
