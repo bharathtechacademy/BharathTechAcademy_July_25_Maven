@@ -8,13 +8,34 @@
 
 	<dependencies>
 
-		<!--
-		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<!--selenium-java for UI automation -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.35.0</version>
 		</dependency>
+
+		<!-- poi to read excel-->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.4.1</version>
+		</dependency>
+
+		<!-- poi-ooxml to process the data extracted from Excel-->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.4.1</version>
+		</dependency>
+
+		<!-- pdfbox to read data from PDF files-->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.34</version>
+		</dependency>
+
 
 	</dependencies>
 
