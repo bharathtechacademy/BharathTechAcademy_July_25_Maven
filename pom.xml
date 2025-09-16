@@ -36,6 +36,13 @@
 			<version>2.0.34</version>
 		</dependency>
 
+		<!-- postgresql to connect with data base-->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.7</version>
+		</dependency>
+
 
 	</dependencies>
 
