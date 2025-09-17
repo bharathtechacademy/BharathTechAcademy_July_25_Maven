@@ -43,6 +43,12 @@
 			<version>42.7.7</version>
 		</dependency>
 
+		<!-- testng for assertions and framework support-->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>			
+		</dependency>
 
 	</dependencies>
 
