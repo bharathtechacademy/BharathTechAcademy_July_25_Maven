@@ -32,4 +32,13 @@ public class AppCommons extends WebCommons {
 		}
 		System.out.println("Execution of test case 4 is completed...");
 	}
+	
+	@Test (retryAnalyzer = RetryTest.class)
+	public void testCase5() {		
+		System.out.println("Step1");
+		System.out.println("Step2");
+		Assert.fail("Failing test case 5 due to  << Data Issue >>");
+		System.out.println("Step3");
+		System.out.println("Step4");		
+	}
 }
